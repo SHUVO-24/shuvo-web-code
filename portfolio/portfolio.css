@@ -16,6 +16,26 @@
     color: #FD6E0A;
 }
 
+
+/* section heading */
+
+.section-heading {
+    width: 827px;
+    margin: 0 auto;
+}
+.section-heading h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
 /* all button */
 .btn{
     color: #FFFFFF;
@@ -34,7 +54,7 @@
 /* main stayle */
 header{
         background-color: rgba(255, 248, 243, 1);
-        background: url(../images/developer.png), url(../images/header_bg.png);
+        background: url(../images/developer.png), url(../images/header_bg.png),  rgba(255, 248, 243, 1);
         background-position: top left, right bottom ;
         background-repeat: no-repeat;
         padding-top: 60px;
@@ -104,5 +124,49 @@ nav ul a{
 }
 
 #banner .banner-image img{
+    max-width: 585px;
     vertical-align: middle;
+}
+
+
+/* this is the about part */
+
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    width: 100%;
+    max-width: 1144px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+}
+
+
+
+
+.about-me{
+    width: 827px;
+    margin: 0 auto;
+    
+
+}
+
+
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info p{
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.about-info h4{
+    color: #757575;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
 }
